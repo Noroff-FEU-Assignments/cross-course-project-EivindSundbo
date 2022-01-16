@@ -1,0 +1,186 @@
+.logo {
+  max-height: 75px;
+  margin-left: 10px;
+}
+
+.navigation {
+  margin-top: 25px;
+  margin-right: 10px;
+  float: right;
+}
+
+.search {
+  padding: 5px 100px 5px 5px;
+  border-radius: 10px;
+  border: none;
+  direction: ltr;
+}
+
+body {
+  background-color: #e9e9e9;
+  margin: auto;
+  max-width: 1300px;
+  font-family: Palatino, "Palatino Linotype", serif;
+}
+
+h1,
+h2 {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+button {
+  font-family: Arial, sans-serif;
+  background-color: #0a3641;
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  padding: 0;
+}
+
+header,
+footer {
+  background-color: #d9d7d0;
+  border: solid black 1px;
+}
+
+.hero_wrapper {
+  max-width: 100%;
+  display: grid;
+  margin: 0 auto;
+  grid-gap: 20px;
+  grid-template-columns: 2fr 2fr;
+  padding-top: 30px;
+  height: 550px;
+}
+
+.cropped_hero_box_1 {
+  width: 670px;
+  height: 200px;
+  overflow: hidden;
+  border: 1px solid #707070;
+}
+
+.cropped_hero_box_1 img {
+  width: 670px;
+  position: relative;
+  top: -50%;
+}
+
+@media (min-width: 1201px) {
+  .hero_box_under {
+    display: none;
+  }
+
+  .hero_box_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    height: 450px;
+  }
+
+  .cropped_hero_box_2 {
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid #707070;
+  }
+
+  .cropped_hero_box_2 img {
+    height: auto;
+    max-width: 200px;
+    position: relative;
+    top: 0;
+    display: block;
+  }
+}
+
+.see_collection {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.buy_now {
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.circle {
+  border: 1px solid rgb(0, 0, 0);
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.mt_peak_circle_blue {
+  background-color: #80cdf2;
+}
+
+.mt_peak_circle_pink {
+  background-color: #d0aba3;
+}
+
+.mt_peak_circle_yellow {
+  background-color: #fdcd11;
+}
+
+.snowday_circle_red {
+  background-color: #be011e;
+}
+
+.snowday_circle_blue {
+  background-color: #223296;
+}
+
+.snowday_circle_green {
+  background-color: #399221;
+}
+
+.avalanche_circle_blue {
+  background-color: #0036d7;
+}
+
+.avalanche_circle_yellow {
+  background-color: #dba400;
+}
+
+.avalanche_circle_red {
+  background-color: #ef4c00;
+}
+
+.social_media {
+  float: right;
+  margin-top: -22px;
+  margin-right: 10px;
+}
+
+@media (max-width: 1200px) {
+  .hero_box_2 {
+    display: none;
+  }
+  .hero_box_under {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    height: 450px;
+  }
+
+  .cropped_hero_box_under {
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid #707070;
+  }
+
+  .cropped_hero_box_under img {
+    height: auto;
+    max-width: 200px;
+    position: relative;
+    top: 0;
+    display: block;
+  }
+}
