@@ -4,212 +4,114 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"
-    />
-    <meta
-      name="description"
-      content="Rainy Days delivering durable, affordable jackets for all weather"
-    />
-    <title>Rainydays | Home</title>
+    <meta name="description" content="Quality raincoats for all uses, made affordable by Rainy Days" />
+    <script src="https://kit.fontawesome.com/91c3e5535a.js" crossorigin="anonymous"></script>
     <link href="/css/index.css" rel="stylesheet" />
+    <title>Rainy Days | Homepage</title>
   </head>
   <body>
     <header>
-      <img
-        src="/images/logo/RainyDays_Logo.png"
-        alt="Logo to Rainydays.com"
-        class="logo"
-      />
+      <div class="empty"></div>
+      <a href="index.html" class="logo"> <img src="/images/logo/RainyDays_Logo.png" alt="Rainy Days logo" /></a>
       <div class="navigation">
-        <input
-          class="search"
-          type="text"
-          placeholder="Search product, brand, name"
-          name="search"
-        />
-        <i class="fas fa-shopping-cart"></i>
+        <input type="text" class="search" placeholder="Search products, size, color, price" />
+        <i class="fas fa-search"></i>
         <i class="fas fa-user-circle"></i>
+        <a href="/checkout.html"><i class="fas fa-shopping-cart"></i></a>
       </div>
     </header>
-    <main class="hero_wrapper">
-      <div class="hero_box_1">
-        <div class="cropped_hero_box_1">
-          <img
-            src="/images/front_page.jpg"
-            alt="Image of man kayaking down a rushing river"
-          />
-        </div>
-        <h1>New Collection</h1>
-        <h2>For the extra dearing</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vel
-          quam voluptate blanditiis voluptates nostrum distinctio perspiciatis
-          nihil suscipit cum, explicabo vero excepturi et mollitia itaque nobis
-          ipsa sunt tenetur! Lorem ipsum, dolor sit amet consectetur adipisicing
-          elit. Laboriosam perferendis, dolorem laudantium facere quaerat,
-          quibusdam beatae deserunt tempore quo minima doloremque doloribus.
-          Expedita nam atque laudantium quos laborum, repudiandae
-          exercitationem!
-        </p>
-        <a href="/inventory.html"
-          ><button class="see_collection">See Collection</button></a
-        >
-      </div>
-      <div class="hero_box_2">
-        <div class="cropped_hero_box_2">
-          <img
-            src="/images/products/mt_peak_yellow.png"
-            alt="product image of Mt Peak womens rainjacket in yellow"
-            class="mt_peak_yellow"
-          />
-        </div>
-        <div class="product mt_peak">
-          <h3>Mt Peak</h3>
-          <p><em>&dollar;50</em></p>
-          <span class="circle mt_peak_circle_blue"></span>
-          <span class="circle mt_peak_circle_pink"></span>
-          <span class="circle mt_peak_circle_yellow"></span>
-          <a href="/product_list.html"
-            ><button class="buy_now">Buy now</button></a
-          >
-        </div>
-        <div class="cropped_hero_box_2">
-          <img
-            src="/images/products/Snowday_red.png"
-            alt="product image of Snowday mens rainjacket in red"
-            class="snowday_red"
-          />
-        </div>
-        <div class="product snowday">
-          <h3>Snowday</h3>
-          <p><em>&dollar;60</em></p>
-          <span class="circle snowday_circle_red"></span>
-          <span class="circle snowday_circle_blue"></span>
-          <span class="circle snowday_circle_green"></span>
-          <a href="/product_list.html"
-            ><button class="buy_now">Buy now</button></a
-          >
-        </div>
-        <div class="cropped_hero_box_2">
-          <img
-            src="/images/products/Avalanche_blue.png"
-            alt="product image of Avalanche womens rainjacket in blue"
-            class="avalanche_red"
-          />
-        </div>
-        <div class="product avalanche">
-          <h3>Avalache</h3>
-          <p><em>&dollar;50</em></p>
-          <span class="circle avalanche_circle_blue"></span>
-          <span class="circle avalanche_circle_yellow"></span>
-          <span class="circle avalanche_circle_red"></span>
-          <a href="/product_list.html"
-            ><button class="buy_now">Buy now</button></a
-          >
-        </div>
-        <div class="cropped_hero_box_2">
-          <img
-            src="/images/products/mt_peak_pink.png"
-            alt="product image of Mt Peak womens rainjacket in pink"
-            class="mt_peak_pink"
-          />
-        </div>
-        <div class="product mt_peak2">
-          <h3>Mt Peak</h3>
-          <p><em>&dollar;50</em></p>
-          <span class="circle mt_peak_circle_blue"></span>
-          <span class="circle mt_peak_circle_pink"></span>
-          <span class="circle mt_peak_circle_yellow"></span>
-          <a href="/product_list.html"
-            ><button class="buy_now">Buy now</button></a
-          >
+    <div class="sub_header">
+      <ul class="breadcrumbs">
+        <li class="current">
+          <span><a href="/index.html">Homepage</a></span>
+        </li>
+      </ul>
+      <p class="shipping">Shipping from 19£</p>
+      <div class="emptyitem">empty</div>
+    </div>
+    <main>
+      <div class="welcome">
+        <img src="/images/front_page.jpg" class="front_page_img" alt="Man kayaking a rushing river" />
+        <div class="content-text">
+          <h1>New inventory</h1>
+          <h2>For the dearing</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quasi laudantium ut sit neque nostrum repellat
+            nisi molestiae quis fugit, architecto totam recusandae debitis, repellendus officiis quibusdam? Esse, perferendis
+            excepturi.
+          </p>
+          <a href="/inventory.html" class="button button_large"> See collection</a>
         </div>
       </div>
-      <div class="hero_box_under">
-        <div class="cropped_hero_box_under">
-          <img
-            src="/images/products/mt_peak_yellow.png"
-            alt="product image of Mt Peak womens rainjacket in yellow"
-            class="mt_peak_yellow"
-          />
+      <div class="products">
+        <div class="product_column">
+          <div class="product">
+            <img src="/images/products/Avalanche_yellow.png" alt="" class="product_image" />
+            <div class="product_info">
+              <h3>Avalanche</h3>
+              <p><em>From 40 £</em></p>
+              <div class="dots">
+                <div class="dot dot_yellow"></div>
+                <div class="dot dot_blue"></div>
+                <div class="dot dot_orange"></div>
+              </div>
+              <a href="/product_mt_peak_blue.html" class="button button_small"> Buy now</a>
+            </div>
+          </div>
+          <div class="product">
+            <img src="/images/products/mt_peak_blue.png" alt="" class="product_image" />
+            <div class="product_info">
+              <h3>Mt Peak</h3>
+              <p><em>From 40 £</em></p>
+              <div class="dots">
+                <div class="dot dot_yellow"></div>
+                <div class="dot dot_light_blue"></div>
+                <div class="dot dot_pink"></div>
+              </div>
+              <a href="/product_mt_peak_blue.html" class="button button_small"> Buy now</a>
+            </div>
+          </div>
         </div>
-        <div class="product mt_peak">
-          <h3>Mt Peak</h3>
-          <p><em>&dollar;50</em></p>
-          <span class="circle mt_peak_circle_blue"></span>
-          <span class="circle mt_peak_circle_pink"></span>
-          <span class="circle mt_peak_circle_yellow"></span>
-          <a href="/product_list.html"
-            ><button class="buy_now">Buy now</button></a
-          >
-        </div>
-        <div class="cropped_hero_box_under">
-          <img
-            src="/images/products/Snowday_red.png"
-            alt="product image of Snowday mens rainjacket in red"
-            class="snowday_red"
-          />
-        </div>
-        <div class="product snowday">
-          <h3>Snowday</h3>
-          <p><em>&dollar;60</em></p>
-          <span class="circle snowday_circle_red"></span>
-          <span class="circle snowday_circle_blue"></span>
-          <span class="circle snowday_circle_green"></span>
-          <a href="/product_list.html"
-            ><button class="buy_now">Buy now</button></a
-          >
-        </div>
-        <div class="cropped_hero_box_under">
-          <img
-            src="/images/products/Avalanche_blue.png"
-            alt="product image of Avalanche womens rainjacket in blue"
-            class="avalanche_red"
-          />
-        </div>
-        <div class="product avalanche">
-          <h3>Avalache</h3>
-          <p><em>&dollar;50</em></p>
-          <span class="circle avalanche_circle_blue"></span>
-          <span class="circle avalanche_circle_yellow"></span>
-          <span class="circle avalanche_circle_red"></span>
-          <a href="/product_list.html"
-            ><button class="buy_now">Buy now</button></a
-          >
-        </div>
-        <div class="cropped_hero_box_under">
-          <img
-            src="/images/products/mt_peak_pink.png"
-            alt="product image of Mt Peak womens rainjacket in pink"
-            class="mt_peak_pink"
-          />
-        </div>
-        <div class="product mt_peak2">
-          <h3>Mt Peak</h3>
-          <p><em>&dollar;50</em></p>
-          <span class="circle mt_peak_circle_blue"></span>
-          <span class="circle mt_peak_circle_pink"></span>
-          <span class="circle mt_peak_circle_yellow"></span>
-          <a href="/product_list.html"
-            ><button class="buy_now">Buy now</button></a
-          >
+        <div class="product_column">
+          <div class="product">
+            <img src="/images/products/Snowday_green.png" alt="" class="product_image" />
+            <div class="product_info">
+              <h3>Snowday</h3>
+              <p><em>From 40 £</em></p>
+              <div class="dots">
+                <div class="dot dot_green"></div>
+                <div class="dot dot_blue"></div>
+                <div class="dot dot_red"></div>
+              </div>
+              <a href="/product_mt_peak_blue.html" class="button button_small"> Buy now</a>
+            </div>
+          </div>
+          <div class="product">
+            <img src="/images/products/Avalanche_orange.png" alt="" class="product_image" />
+            <div class="product_info">
+              <h3>Avalanche</h3>
+              <p><em>From 40 £</em></p>
+              <div class="dots">
+                <div class="dot dot_yellow"></div>
+                <div class="dot dot_blue"></div>
+                <div class="dot dot_orange"></div>
+              </div>
+              <a href="/product_mt_peak_blue.html" class="button button_small"> Buy now</a>
+            </div>
+          </div>
         </div>
       </div>
     </main>
+    <footer>
+      <div>
+        <a href="/about.html">About us</a>
+        <a href="/contact.html">Contact us</a>
+      </div>
+      <div>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-snapchat-square"></i>
+        <i class="fab fa-facebook-square"></i>
+      </div>
+    </footer>
   </body>
-  <footer>
-    <div class="links">
-      <a href="/about.html">About us</a>
-      <a href="/contact.html">Contact</a>
-    </div>
-    <div class="social_media">
-      <i class="fab fa-instagram"></i>
-      <i class="fab fa-snapchat"></i>
-      <i class="fab fa-facebook"></i>
-    </div>
-  </footer>
 </html>
