@@ -26,6 +26,8 @@ header {
   height: 110px;
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 header div {
@@ -86,6 +88,8 @@ body {
   display: flex;
   justify-content: flex-start;
   position: relative;
+  position: sticky;
+  top: 110px;
 }
 
 .emptyitem {
@@ -508,7 +512,7 @@ td select {
 
 .checkout_success {
   background-color: #d9d7d0;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
