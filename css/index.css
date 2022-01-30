@@ -1,0 +1,492 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  background-color: #e9e9e9;
+  display: flex;
+  min-height: calc(100vh - 233px);
+}
+
+.welcome {
+  flex-direction: column;
+  width: 50%;
+  margin: 5px 5px;
+  display: flex;
+  flex: 1;
+}
+
+.products {
+  flex-direction: row;
+  margin: 5px 5px;
+  display: flex;
+  flex: 1;
+}
+
+.front_page_img {
+  max-width: 580px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+.content-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.product {
+  display: flex;
+  border: 1px solid black;
+  margin: 0 5px 10px 0;
+}
+
+.product_image {
+  width: 150px;
+  height: 200px;
+}
+
+.product_info {
+  display: flex;
+  flex-direction: column;
+  width: 145px;
+  height: 200px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  background-color: #d9d7d0;
+  min-width: 100%;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* About US */
+
+.about_img,
+.about_content {
+  flex: 1;
+  margin: 10px;
+  align-self: center;
+}
+
+.about_img {
+  max-width: 50%;
+  max-height: auto;
+}
+
+.about_content {
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.about_content h1 {
+  margin-bottom: 100px;
+}
+
+/*Contact Page*/
+.main_contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.top_contact {
+  flex: 1;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.contact_img {
+  max-height: 400px;
+  margin: 10px;
+  object-fit: cover;
+}
+
+.contact_box {
+  flex: 1;
+  display: flex;
+}
+
+.form {
+  margin-right: 50px;
+  flex: 1;
+}
+
+.contact_info {
+  margin-left: 50px;
+  flex: 1;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_name {
+  display: flex;
+}
+.form_name input {
+  width: 50%;
+}
+
+.form_email input {
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  min-width: 100%;
+  min-height: 15vh;
+}
+
+input,
+textarea {
+  border-radius: 5px;
+  margin-bottom: 5px;
+  background-color: #e9e9e9;
+}
+
+/*Checkout page*/
+
+#checkout {
+  display: block;
+}
+
+table,
+.your_info,
+.shipping_info,
+.payment_info {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.form_1,
+.form_2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.form_1 input {
+  width: 25%;
+}
+
+.form_2 input {
+  width: 50%;
+}
+
+tr {
+  display: flex;
+}
+
+td {
+  flex: 1;
+}
+
+tbody tr:nth-of-type(2n),
+thead {
+  background-color: #dfdede;
+}
+
+tbody td {
+  display: flex;
+  align-items: center;
+}
+
+td img {
+  display: block;
+  margin: 0 auto;
+  max-width: 40%;
+  padding: 5px;
+  max-height: 20vh;
+}
+
+td select {
+  width: 40%;
+}
+
+/*Inventory page*/
+
+.inventory_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inventory_main h1 {
+  display: flex;
+  flex: 1;
+  align-self: center;
+}
+
+.inventory_content {
+  flex: 1;
+  display: flex;
+}
+
+.inventory_h2 {
+  text-align: left;
+}
+
+.sort {
+  display: flex;
+  margin: 10px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 20%;
+}
+
+.sort .dot {
+  margin-right: 10px;
+}
+
+.color_sort,
+.price_sort {
+  padding: 0px 10px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  min-width: 80px;
+  max-width: 90px;
+}
+
+.products_inventory h1 {
+  text-align: left;
+}
+
+.products_inventory {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.products_inventory .product {
+  max-width: 33%;
+}
+
+/*Product page*/
+
+.prod_avalanche {
+  display: flex;
+}
+
+.avalanche_img {
+  flex: 1;
+}
+
+.avalanche_img img {
+  display: block;
+  margin: 0 auto;
+}
+
+.avalanche_text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: center;
+}
+
+.avalanche_btn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.avalanche_btn .dots {
+  margin: 0 auto;
+}
+
+.avalanche_btn a {
+  margin-top: 10px;
+}
+
+/*checkout success*/
+
+.blur {
+  position: relative;
+  filter: blur(10px);
+}
+
+.checkout_success {
+  background-color: #d9d7d0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1200px;
+}
+
+.checkout_success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+.checkout_success img {
+  width: 50%;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 10px 10px 10px;
+}
+
+.fab {
+  margin: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  main {
+    flex-direction: column;
+  }
+
+  .welcome {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .welcome img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .products {
+    flex-direction: column;
+    margin: 10px auto;
+  }
+  .product_column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .welcome p {
+    max-width: 50%;
+    align-self: center;
+  }
+
+  .products_inventory .product {
+    max-width: 50%;
+  }
+
+  .avalanche_text {
+    max-width: 500px;
+    align-self: center;
+  }
+
+  .about_img {
+    max-height: 400px;
+  }
+
+  .about_content h1 {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .welcome {
+    width: 100%;
+  }
+
+  .welcome img {
+    align-self: center;
+  }
+
+  .product_column {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact_box {
+    flex-direction: row;
+  }
+
+  .contact_img {
+    max-height: 300px;
+    width: 90%;
+    margin: 10px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+  .filter {
+    display: none;
+  }
+
+  .products_inventory .product {
+    max-width: 100%;
+  }
+
+  .avalanche_img img {
+    max-width: 320px;
+    align-self: center;
+    object-fit: cover;
+  }
+
+  td img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .checkout_success img {
+    width: 80%;
+  }
+
+  .contact_info {
+    margin: 5px;
+  }
+
+  .contact_box {
+    flex-direction: column;
+  }
+
+  .form {
+    align-items: center;
+    margin: 5px;
+  }
+
+  .form_1 input {
+    width: 45%;
+  }
+
+  .form_2 input {
+    width: 90%;
+  }
+}
