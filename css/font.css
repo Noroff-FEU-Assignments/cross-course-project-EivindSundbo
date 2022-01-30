@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Palatino Linotype";
+  src: url(/assets/fonts/Palatino\ Linotype.ttf);
+}
+
+p {
+  font-family: "Palatino Linotype";
+}
+
+h1,
+h2,
+h3,
+.shipping {
+  font-family: "Tahoma", Geneva, Verdana, sans-serif;
+}
+
+.fas {
+  font-size: 2em;
+}
+
+.fab {
+  font-size: 1.5em;
+}
+
+.sub_header {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.breadcrumbs li {
+  font-style: italic;
+}
+
+.button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.button_large {
+  font-size: 20px;
+}
+
+.button_small {
+  font-size: 12px;
+}
+
+.inventory_h2 {
+  font-size: 18px;
+}
+
+.shipping {
+  font-size: 12px;
+}
+
+.footer a {
+  font-size: 1em;
+}
+@media screen and (max-width: 767px) {
+  .checkout_success h1 {
+    font-size: 24px;
+  }
+  .checkout_success h2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .breadcrumbs a {
+    font-size: 12px;
+  }
+}
