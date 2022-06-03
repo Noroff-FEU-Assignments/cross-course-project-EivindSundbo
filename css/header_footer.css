@@ -34,6 +34,7 @@ header div {
   border: 0px;
   width: 250px;
 }
+
 .fa-search {
   display: none;
 }
@@ -86,6 +87,16 @@ ul.breadcrumbs li + li::before {
   padding: 5px;
   content: "/";
   text-decoration: none;
+}
+
+.fab {
+  margin: 10px;
+}
+
+.about-us, .contact-us {
+  text-decoration: none;
+  color: black;
+  padding: 0 10px 10px 10px;
 }
 
 @media screen and (max-width: 1200px) {
