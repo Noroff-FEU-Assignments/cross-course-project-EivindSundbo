@@ -1,6 +1,8 @@
+import { jacketArray } from "./constants/productList.js";
+
 const productItem = JSON.parse(localStorage.getItem("productList"));
 const productContainer = document.querySelector(".product-page");
-console.log(productItem);
+
 
 productItem.forEach(function(productElement){
     productContainer.innerHTML +=
@@ -19,17 +21,25 @@ productItem.forEach(function(productElement){
           <div class="dot dot_blue"></div>
           <div class="dot dot_orange"></div>
         </div>
-        <button class="button button_large" data-cart> Buy now</button>
+        <button class="button button_large" data-product=${productElement.id}> Buy now</button>
       </div>
     </div>
     `
 });
 
+
+
 const button = document.querySelector("button");
 button.onclick = function(event){
+  
+  var tempArray = JSON.parse(localStorage.getItem("cartList") || "[]")
 
-  localStorage.removeItem("productList");
+  console.log(tempArray);
+  
+
+  const itemToCart = jacketArray.find(item => item.id === parseInt(event.target.dataset.product));
+  tempArray.push(itemToCart);
+  localStorage.setItem("cartList", JSON.stringify(tempArray));
 
   window.location.href=`checkout.html`;
-}
-
+};

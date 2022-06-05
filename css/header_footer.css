@@ -29,7 +29,18 @@ header div {
   margin: 0 auto;
 }
 
-.search {
+.about-us, .contact-us {
+  text-decoration: none;
+  color: #0a3641;
+  padding: 5px 10px 10px 10px;
+  font-weight: bold;
+}
+
+.fa-shopping-cart{
+  color: #0a3641;
+}
+
+/* .search {
   border-radius: 15px;
   border: 0px;
   width: 250px;
@@ -37,11 +48,7 @@ header div {
 
 .fa-search {
   display: none;
-}
-
-.navigation i {
-  padding: 0px 5px 0px 10px;
-}
+} */
 
 .sub_header {
   background-color: #0a3641;
@@ -91,13 +98,14 @@ ul.breadcrumbs li + li::before {
 
 .fab {
   margin: 10px;
+  color: #0a3641;
 }
 
-.about-us, .contact-us {
-  text-decoration: none;
-  color: black;
-  padding: 0 10px 10px 10px;
+.some{
+  align-items: center;
 }
+
+
 
 @media screen and (max-width: 1200px) {
   .search {
@@ -146,4 +154,16 @@ ul.breadcrumbs li + li::before {
   ul.breadcrumbs li + li::before {
     padding: 2px;
   }
+}
+
+.about-us, .contact-us {
+  text-decoration: none;
+  color: #0a3641;
+  padding: 5px 10px 10px 10px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.fa-shopping-cart{
+  color: #0a3641;
 }

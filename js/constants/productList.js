@@ -5,7 +5,7 @@ export const jacketArray = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente architecto atque illum odit, eos ipsa! Cum, exercitationem! Voluptate culpa omnis corrupti dolore similique? Magni ab voluptatibus accusamus enim repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam autem error velit quas dolore esse dolorem iusto, et delectus exercitationem tenetur numquam odio fugit eaque dolor laboriosam mollitia ratione. Iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus facere accusantium unde, facilis exercitationem recusandae incidunt a adipisci iusto dicta ipsum ea modi, explicabo, id alias atque? Tempore, similique.",
         price: 39,
         color: "blue",
-        imgsrc : "/New shortcut.lnk/images/products/avalanche_blue.jpg",
+        imgsrc : "images/products/avalanche_blue.jpg",
     },
     {
         name: "Avalanche",
@@ -13,7 +13,7 @@ export const jacketArray = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente architecto atque illum odit, eos ipsa! Cum, exercitationem! Voluptate culpa omnis corrupti dolore similique? Magni ab voluptatibus accusamus enim repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam autem error velit quas dolore esse dolorem iusto, et delectus exercitationem tenetur numquam odio fugit eaque dolor laboriosam mollitia ratione. Iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus facere accusantium unde, facilis exercitationem recusandae incidunt a adipisci iusto dicta ipsum ea modi, explicabo, id alias atque? Tempore, similique.",
         price: 39,
         color: "yellow",
-        imgsrc : "/New shortcut.lnk/images/products/avalanche_yellow.jpg",
+        imgsrc : "images/products/avalanche_yellow.jpg",
     },
     {
         name: "Avalanche",
@@ -21,7 +21,7 @@ export const jacketArray = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente architecto atque illum odit, eos ipsa! Cum, exercitationem! Voluptate culpa omnis corrupti dolore similique? Magni ab voluptatibus accusamus enim repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam autem error velit quas dolore esse dolorem iusto, et delectus exercitationem tenetur numquam odio fugit eaque dolor laboriosam mollitia ratione. Iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus facere accusantium unde, facilis exercitationem recusandae incidunt a adipisci iusto dicta ipsum ea modi, explicabo, id alias atque? Tempore, similique.",
         price: 39,
         color: "orange",
-        imgsrc : "/New shortcut.lnk/images/products/avalanche_orange.jpg",
+        imgsrc : "images/products/avalanche_orange.jpg",
     },
     {
         name: "Mt Peak",
@@ -29,7 +29,7 @@ export const jacketArray = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente architecto atque illum odit, eos ipsa! Cum, exercitationem! Voluptate culpa omnis corrupti dolore similique? Magni ab voluptatibus accusamus enim repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam autem error velit quas dolore esse dolorem iusto, et delectus exercitationem tenetur numquam odio fugit eaque dolor laboriosam mollitia ratione. Iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus facere accusantium unde, facilis exercitationem recusandae incidunt a adipisci iusto dicta ipsum ea modi, explicabo, id alias atque? Tempore, similique.",
         price: 49,
         color: "turquoise",
-        imgsrc : "/New shortcut.lnk/images/products/mt_peak_turquoise.jpg",
+        imgsrc : "images/products/mt_peak_turquoise.jpg",
     },
     {
         name: "Mt Peak",
@@ -37,7 +37,7 @@ export const jacketArray = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente architecto atque illum odit, eos ipsa! Cum, exercitationem! Voluptate culpa omnis corrupti dolore similique? Magni ab voluptatibus accusamus enim repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam autem error velit quas dolore esse dolorem iusto, et delectus exercitationem tenetur numquam odio fugit eaque dolor laboriosam mollitia ratione. Iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus facere accusantium unde, facilis exercitationem recusandae incidunt a adipisci iusto dicta ipsum ea modi, explicabo, id alias atque? Tempore, similique.",
         price: 49,
         color: "yellow",
-        imgsrc: "/New shortcut.lnk/images/products/mt_peak_yellow.jpg",
+        imgsrc: "images/products/mt_peak_yellow.jpg",
     },
     {
         name: "Mt Peak",
@@ -45,7 +45,7 @@ export const jacketArray = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente architecto atque illum odit, eos ipsa! Cum, exercitationem! Voluptate culpa omnis corrupti dolore similique? Magni ab voluptatibus accusamus enim repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam autem error velit quas dolore esse dolorem iusto, et delectus exercitationem tenetur numquam odio fugit eaque dolor laboriosam mollitia ratione. Iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus facere accusantium unde, facilis exercitationem recusandae incidunt a adipisci iusto dicta ipsum ea modi, explicabo, id alias atque? Tempore, similique.",
         price: 49,
         color: "pink",
-        imgsrc : "/New shortcut.lnk/images/products/mt_peak_pink.jpg",
+        imgsrc : "images/products/mt_peak_pink.jpg",
     },
     {
         name: "Snowday",
@@ -53,7 +53,7 @@ export const jacketArray = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente architecto atque illum odit, eos ipsa! Cum, exercitationem! Voluptate culpa omnis corrupti dolore similique? Magni ab voluptatibus accusamus enim repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam autem error velit quas dolore esse dolorem iusto, et delectus exercitationem tenetur numquam odio fugit eaque dolor laboriosam mollitia ratione. Iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus facere accusantium unde, facilis exercitationem recusandae incidunt a adipisci iusto dicta ipsum ea modi, explicabo, id alias atque? Tempore, similique.",
         price: 59,
         color: "green",
-        imgsrc : "/New shortcut.lnk/images/products/snowday_green.jpg",
+        imgsrc : "images/products/snowday_green.jpg",
     },
     {
         name: "Snowday",
@@ -61,7 +61,7 @@ export const jacketArray = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente architecto atque illum odit, eos ipsa! Cum, exercitationem! Voluptate culpa omnis corrupti dolore similique? Magni ab voluptatibus accusamus enim repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam autem error velit quas dolore esse dolorem iusto, et delectus exercitationem tenetur numquam odio fugit eaque dolor laboriosam mollitia ratione. Iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus facere accusantium unde, facilis exercitationem recusandae incidunt a adipisci iusto dicta ipsum ea modi, explicabo, id alias atque? Tempore, similique.",
         price: 59,
         color: "blue",
-        imgsrc : "/New shortcut.lnk/images/products/snowday_blue.jpg",
+        imgsrc : "images/products/snowday_blue.jpg",
     },
     {
         name: "Snowday",
@@ -69,7 +69,7 @@ export const jacketArray = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente architecto atque illum odit, eos ipsa! Cum, exercitationem! Voluptate culpa omnis corrupti dolore similique? Magni ab voluptatibus accusamus enim repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam autem error velit quas dolore esse dolorem iusto, et delectus exercitationem tenetur numquam odio fugit eaque dolor laboriosam mollitia ratione. Iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus facere accusantium unde, facilis exercitationem recusandae incidunt a adipisci iusto dicta ipsum ea modi, explicabo, id alias atque? Tempore, similique.",
         price: 59,
         color: "red",
-        imgsrc : "/New shortcut.lnk/images/products/snowday_red.jpg",
+        imgsrc : "images/products/snowday_red.jpg",
     },
     {
         name: "Avalanche",
@@ -77,7 +77,7 @@ export const jacketArray = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente architecto atque illum odit, eos ipsa! Cum, exercitationem! Voluptate culpa omnis corrupti dolore similique? Magni ab voluptatibus accusamus enim repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam autem error velit quas dolore esse dolorem iusto, et delectus exercitationem tenetur numquam odio fugit eaque dolor laboriosam mollitia ratione. Iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus facere accusantium unde, facilis exercitationem recusandae incidunt a adipisci iusto dicta ipsum ea modi, explicabo, id alias atque? Tempore, similique.",
         price: 39,
         color: "blue",
-        imgsrc : "/New shortcut.lnk/images/products/avalanche_blue.jpg",
+        imgsrc : "images/products/avalanche_blue.jpg",
     },
     {
         name: "Avalanche",
@@ -85,7 +85,7 @@ export const jacketArray = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente architecto atque illum odit, eos ipsa! Cum, exercitationem! Voluptate culpa omnis corrupti dolore similique? Magni ab voluptatibus accusamus enim repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam autem error velit quas dolore esse dolorem iusto, et delectus exercitationem tenetur numquam odio fugit eaque dolor laboriosam mollitia ratione. Iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus facere accusantium unde, facilis exercitationem recusandae incidunt a adipisci iusto dicta ipsum ea modi, explicabo, id alias atque? Tempore, similique.",
         price: 39,
         color: "yellow",
-        imgsrc : "/New shortcut.lnk/images/products/avalanche_yellow.jpg",
+        imgsrc : "images/products/avalanche_yellow.jpg",
     },
     {
         name: "Avalanche",
@@ -93,7 +93,7 @@ export const jacketArray = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente architecto atque illum odit, eos ipsa! Cum, exercitationem! Voluptate culpa omnis corrupti dolore similique? Magni ab voluptatibus accusamus enim repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam autem error velit quas dolore esse dolorem iusto, et delectus exercitationem tenetur numquam odio fugit eaque dolor laboriosam mollitia ratione. Iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus facere accusantium unde, facilis exercitationem recusandae incidunt a adipisci iusto dicta ipsum ea modi, explicabo, id alias atque? Tempore, similique.",
         price: 39,
         color: "orange",
-        imgsrc : "/New shortcut.lnk/images/products/avalanche_orange.jpg",
+        imgsrc : "images/products/avalanche_orange.jpg",
     },
     {
         name: "Mt Peak",
@@ -101,7 +101,7 @@ export const jacketArray = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente architecto atque illum odit, eos ipsa! Cum, exercitationem! Voluptate culpa omnis corrupti dolore similique? Magni ab voluptatibus accusamus enim repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam autem error velit quas dolore esse dolorem iusto, et delectus exercitationem tenetur numquam odio fugit eaque dolor laboriosam mollitia ratione. Iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus facere accusantium unde, facilis exercitationem recusandae incidunt a adipisci iusto dicta ipsum ea modi, explicabo, id alias atque? Tempore, similique.",
         price: 49,
         color: "turquoise",
-        imgsrc : "/New shortcut.lnk/images/products/mt_peak_turquoise.jpg",
+        imgsrc : "images/products/mt_peak_turquoise.jpg",
     },
     {
         name: "Mt Peak",
@@ -109,7 +109,7 @@ export const jacketArray = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente architecto atque illum odit, eos ipsa! Cum, exercitationem! Voluptate culpa omnis corrupti dolore similique? Magni ab voluptatibus accusamus enim repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam autem error velit quas dolore esse dolorem iusto, et delectus exercitationem tenetur numquam odio fugit eaque dolor laboriosam mollitia ratione. Iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus facere accusantium unde, facilis exercitationem recusandae incidunt a adipisci iusto dicta ipsum ea modi, explicabo, id alias atque? Tempore, similique.",
         price: 49,
         color: "yellow",
-        imgsrc: "/New shortcut.lnk/images/products/mt_peak_yellow.jpg",
+        imgsrc: "images/products/mt_peak_yellow.jpg",
     },
     {
         name: "Mt Peak",
@@ -117,7 +117,7 @@ export const jacketArray = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente architecto atque illum odit, eos ipsa! Cum, exercitationem! Voluptate culpa omnis corrupti dolore similique? Magni ab voluptatibus accusamus enim repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam autem error velit quas dolore esse dolorem iusto, et delectus exercitationem tenetur numquam odio fugit eaque dolor laboriosam mollitia ratione. Iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus facere accusantium unde, facilis exercitationem recusandae incidunt a adipisci iusto dicta ipsum ea modi, explicabo, id alias atque? Tempore, similique.",
         price: 49,
         color: "pink",
-        imgsrc : "/New shortcut.lnk/images/products/mt_peak_pink.jpg",
+        imgsrc : "images/products/mt_peak_pink.jpg",
     },
     {
         name: "Snowday",
@@ -125,7 +125,7 @@ export const jacketArray = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente architecto atque illum odit, eos ipsa! Cum, exercitationem! Voluptate culpa omnis corrupti dolore similique? Magni ab voluptatibus accusamus enim repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam autem error velit quas dolore esse dolorem iusto, et delectus exercitationem tenetur numquam odio fugit eaque dolor laboriosam mollitia ratione. Iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus facere accusantium unde, facilis exercitationem recusandae incidunt a adipisci iusto dicta ipsum ea modi, explicabo, id alias atque? Tempore, similique.",
         price: 59,
         color: "green",
-        imgsrc : "/New shortcut.lnk/images/products/snowday_green.jpg",
+        imgsrc : "images/products/snowday_green.jpg",
     },
     {
         name: "Snowday",
@@ -133,7 +133,7 @@ export const jacketArray = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente architecto atque illum odit, eos ipsa! Cum, exercitationem! Voluptate culpa omnis corrupti dolore similique? Magni ab voluptatibus accusamus enim repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam autem error velit quas dolore esse dolorem iusto, et delectus exercitationem tenetur numquam odio fugit eaque dolor laboriosam mollitia ratione. Iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus facere accusantium unde, facilis exercitationem recusandae incidunt a adipisci iusto dicta ipsum ea modi, explicabo, id alias atque? Tempore, similique.",
         price: 59,
         color: "blue",
-        imgsrc : "/New shortcut.lnk/images/products/snowday_blue.jpg",
+        imgsrc : "images/products/snowday_blue.jpg",
     },
     {
         name: "Snowday",
@@ -141,6 +141,6 @@ export const jacketArray = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente architecto atque illum odit, eos ipsa! Cum, exercitationem! Voluptate culpa omnis corrupti dolore similique? Magni ab voluptatibus accusamus enim repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam autem error velit quas dolore esse dolorem iusto, et delectus exercitationem tenetur numquam odio fugit eaque dolor laboriosam mollitia ratione. Iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus facere accusantium unde, facilis exercitationem recusandae incidunt a adipisci iusto dicta ipsum ea modi, explicabo, id alias atque? Tempore, similique.",
         price: 59,
         color: "red",
-        imgsrc : "/New shortcut.lnk/images/products/snowday_red.jpg",
+        imgsrc : "images/products/snowday_red.jpg",
     },
 ];

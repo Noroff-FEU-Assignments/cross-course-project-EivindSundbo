@@ -53,6 +53,7 @@ h2 {
   display: flex;
   border: 1px solid black;
   margin: 5px 5px 0px 0;
+  justify-content: space-between;
   box-shadow: 10px 10px 7px 1px rgba(0,0,0,0.2);
   border-radius: 0.5rem;
   overflow: hidden;
@@ -64,69 +65,25 @@ h2 {
 
 .products {
   flex-wrap: wrap;
-  margin: 5px 0 20px 5px;
+  margin: 10px 0 20px 5px;
   display: flex;
   flex: 1;
   height: 200px;
 }
 
 .product_image {
-  width: 150px;
-  height: 200px;
+  width: 140px;
+  height: 180px;
 }
 
 .product_info {
   display: flex;
   flex-direction: column;
-  width: 100px;
-  height: 200px;
+  width: 115px;
+  height: 170px;
   align-items: center;
   justify-content: space-between;
 }
-
-
-/* .product {
-  display: flex;
-  border: 1px solid black;
-  margin: 5px 5px 0px 0;
-  box-shadow: 10px 10px 7px 1px rgba(0,0,0,0.2);
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-
-#productList{
-  margin: 10px 15px;
-}
-
-.products {
-  flex-wrap: wrap;
-  margin: 5px 0 20px 5px;
-  display: flex;
-  flex: 1;
-  height: 150px;
-}
-
-.product_image {
-  width: 125px;
-  height: 150px;
-}
-
-.product_info {
-  display: flex;
-  flex-direction: column;
-  width: 120px;
-  height: 150px;
-  align-items: center;
-  justify-content: space-between;
-}
-.product_info h3{
-  margin: 0px;
-}
-
-.testing{
-  margin: 0px;
-} */
-
 
 footer {
   display: flex;
@@ -136,6 +93,7 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+
 
 /* About US */
 
@@ -187,36 +145,45 @@ footer {
   display: flex;
 }
 
-.form {
-  margin-right: 50px;
-  flex: 1;
+label {
+  display: block;
+  margin-top: 1rem;
+  font-size: 2em;
+}
+
+.form-error {
+  display: none;
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 2px;
 }
 
 .contact_info {
-  margin-left: 50px;
+  /* margin-left: 50px; */
+  text-align: center;
   flex: 1;
 }
 
 .form {
   display: flex;
+  flex: 1;
   flex-direction: column;
 }
 
-.form_name {
+.form_name, .form_message {
   display: flex;
-}
-.form_name input {
-  width: 50%;
-}
-
-.form_email input {
   width: 100%;
+  /* justify-content: space-between;
+  align-items: center; */
+  justify-content: center;
 }
 
-textarea {
-  resize: none;
-  min-width: 100%;
-  min-height: 15vh;
+#chat_name, #chat_surName{
+  margin: 5px;
+}
+
+#chat_message{
+  width: 100%;
 }
 
 input,
@@ -430,10 +397,6 @@ td select {
     flex-direction: row;
     margin: 10px auto;
     justify-content: center;
-  }
-
-  .products{
-    /* flex-wrap: nowrap; */
   }
 
   .product_column {
