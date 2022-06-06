@@ -17,7 +17,8 @@
       <div class="empty"></div>
       <a href="index.html" class="logo"> <img src="images/logo/RainyDays_Logo.png" alt="Rainy Days logo" /></a>
       <div class="navigation">
-        <i class="fas fa-user-circle"></i>
+        <a href="about.html" class="about-us">About</a>
+        <a href="contact.html" class="contact-us">Contact</a>
         <a href="checkout.html"><i class="fas fa-shopping-cart"></i></a>
       </div>
     </header>
@@ -47,51 +48,65 @@
     </table>
     <div class="your_info">
       <h2>Your Information</h2>
-        <div class="form_1">
-          <input type="text" name="firstname" placeholder="Name">
-          <input type="text" name="surname" placeholder="Surname">
+      <form id="checkout_form">
+        <div class="checkout_name">
+          <div>
+            <label>
+              <div class="form-error" id="checkoutNameError">Enter name here</div>
+              <input type="text" id="checkoutName" name="firstname" placeholder="Name">
+            </label>
+          </div>
+          <div>
+            <label>
+              <div class="form-error" id="checkoutSurNameError">Enter surname here</div>
+              <input type="text" id="checkoutSurName" name="surname" placeholder="Surname">
+            </label>
+          </div>
         </div>
-        <div class="form_2">
-          <input type="text" name="email" placeholder="Email">
+        <div class="checkout_email">
+          <label>
+            <div class="form-error" id="checkoutEmailError">Enter email here</div>
+            <input type="text" id="checkoutEmail" name="email" placeholder="Email">
+          </label>
         </div>
-        <div class="form_2">
-          <input type="text" name="phone" placeholder="Phone">
+        <div class="checkout_phone">
+          <label>
+            <div class="form-error" id="checkoutPhoneError">Enter phone number here</div>
+            <input type="text" id="checkoutPhone" name="phone" placeholder="Phone number 10 digits">
+          </label>
         </div>
-    </div>
-    <div class="shipping_info">
-      <h2>Shipping</h2>
-      <div class="form_1">
-        <input type="text" name="firstname" placeholder="Name">
-        <input type="text" name="surname" placeholder="Surname">
-      </div>
-      <div class="form_2">
-        <input type="text" name="adress" placeholder="Adress">
-      </div>
-      <div class="form_1">
-        <input type="text" name="postal code" placeholder="Postal Code">
-        <input type="text" name="city" placeholder="City">
-      </div>
-    </div>
-    <div class="payment_info">
-      <h2>Payment Information</h2>
-      <div class="form_2">
-        <input type="text" name="cardholder name" placeholder="Cardholdes name">
-      </div>
-      <div class="form_2">
-        <input type="text" name="card number" placeholder="Card number">
-      </div>
-      <div class="form_1">
-        <input type="text" name="exp date" placeholder="Exp date">
-        <input type="text" name="cvc" placeholder="CVC">
-      </div>
-    </div>
-    <a href="checkout_success.html" class="button place_order button_large"> PLACE ORDER</a>
+
+        <h2>Payment Information</h2>
+        <div class="checkout_card_name">
+          <label>
+            <div class="form-error" id="cardNameError">Enter cardholders name here</div>
+            <input type="text" id="cardName" name="cardName" placeholder="Cardholders name">
+          </label>
+        </div>
+        <div class="checkout_card_number">
+          <label>
+            <div class="form-error" id="cardNumberError">Enter card number here</div>
+            <input type="text" id="cardNumber" name="cardNumber" placeholder="Card number Visa only">
+          </label>
+        </div>
+        <div class="cvc_exp">
+          <div>
+            <label>
+              <div class="form-error" id="expDateError">Enter exp date here</div>
+              <input type="text" id="expDate" name="expDate" placeholder="Exp date">
+            </label>
+          </div>
+          <div>
+            <label>
+              <div class="form-error" id="cvcError">Enter CVC here</div>
+              <input type="text" id="cvc" name="cvc" placeholder="CVC">
+            </label>
+          </div>
+        </div>
+        <button class="button place_order button_large">PLACE ORDER</button>
+      </form>
   </main>
   <footer>
-    <div>
-      <a href="about.html">About us</a>
-      <a href="contact.html">Contact us</a>
-    </div>
     <div>
       <i class="fab fa-instagram"></i>
       <i class="fab fa-snapchat-square"></i>
@@ -99,4 +114,5 @@
     </div>
   </footer>
   <script src="js/cart.js" type="module"></script>
+  <script src="js/checkoutValidation.js"></script>
 </html>

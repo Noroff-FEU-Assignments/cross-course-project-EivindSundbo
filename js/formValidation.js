@@ -35,6 +35,3 @@ function validateChatForm(event){
 
 }
 form.addEventListener("submit", validateChatForm);
-
-
-/* Checkout us chat form */

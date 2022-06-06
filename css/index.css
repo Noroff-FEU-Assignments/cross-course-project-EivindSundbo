@@ -69,6 +69,7 @@ h2 {
   display: flex;
   flex: 1;
   height: 200px;
+  justify-content: center;
 }
 
 .product_image {
@@ -155,11 +156,9 @@ label {
   display: none;
   color: red;
   font-size: 0.9rem;
-  margin-top: 2px;
 }
 
 .contact_info {
-  /* margin-left: 50px; */
   text-align: center;
   flex: 1;
 }
@@ -172,13 +171,34 @@ label {
 
 .form_name, .form_message {
   display: flex;
-  width: 100%;
-  /* justify-content: space-between;
-  align-items: center; */
   justify-content: center;
 }
+.form_message label{
+  width: 90%;
+}
 
-#chat_name, #chat_surName{
+.form_name div{
+  width: 45%;
+}
+
+#chat_name, 
+#chat_surName{
+  width: 90%;
+}
+
+/* * {border:1px solid red} */
+
+#chat_name, 
+#chat_surName, 
+#chat_message, 
+#checkoutName, 
+#checkoutSurName, 
+#email, 
+#checkoutPhone, 
+#cardName, 
+#cardInfo, 
+#expDate, 
+#cvc {
   margin: 5px;
 }
 
@@ -201,12 +221,29 @@ textarea {
 
 table,
 .your_info,
-.shipping_info,
 .payment_info {
   width: 90%;
   margin: 10px auto;
   display: flex;
   flex-direction: column;
+}
+
+.checkout_name,
+.checkout_email,
+.checkout_phone,
+.checkout_card_name,
+.checkout_card_number,
+.cvc_exp{
+  display: flex;
+  justify-content: center;
+}
+
+.checkout_email{
+  width: 100%;
+}
+
+#email{
+  width: 350px
 }
 
 .form_1,
@@ -221,6 +258,10 @@ table,
 
 .form_2 input {
   width: 50%;
+}
+
+.cvc_exp{
+  display: flex;
 }
 
 tr {
