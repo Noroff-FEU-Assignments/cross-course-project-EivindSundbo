@@ -10,6 +10,12 @@
   box-shadow: 4px 3px 7px -1px rgba(0,0,0,0.77);
   
 }
+
+a{
+  color: white;
+  text-decoration: inherit;
+}
+
 .button_large, button {
   display: block;
   width: 90%;
@@ -72,3 +78,4 @@ button:hover{
 .dots {
   display: flex;
 }
+
