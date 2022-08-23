@@ -1,33 +1,26 @@
+import { jacketArray } from "./constants/productList.js"
+console.log(jacketArray);
+
 const products = document.querySelector(".products");
-
-const url = "https://cms-ca.eg-sundbo.online/wp-json/wc/store/products";
-
+let productArray = [];
 
 
-async function fetchProducts(){
-    try {
-        const response = await fetch(url);
-        const results = await response.json();
+for(let i = 0; i < 4; i++){    
 
-        let productArray = [];
-
-        // console.log(results);
-        
-    for(let i = 0; i < 4; i++){
-    
     products.innerHTML += 
     `
+    
         <div class="product">
-            <img src="${results[i].images[0].src}" alt="" class="product_image" />
+            <img src="${jacketArray[i].imgsrc}" alt="" class="product_image" />
             <div class="product_info">
-                <h3>${results[i].name}</h3>
-                <p><em>Only ${results[i].prices.price}</em></p>
+                <h3>${jacketArray[i].name}</h3>
+                <p><em>Only ${jacketArray[i].price} £</em></p>
                 <div class="dots">
                 <div class="dot dot_yellow"></div>
                 <div class="dot dot_blue"></div>
                 <div class="dot dot_orange"></div>
                 </div>
-                <button class="button button_small" data-product=${results[i].id}><a href="product_mt_peak_blue.html?id=${results[i].id}">Read more</a></button>
+                <button class="button button_small" data-product=${jacketArray[i].id}> Read more</button>
             </div>
     `
 };
@@ -49,13 +42,3 @@ buttons.forEach(function(button){
 
 function showProduct(productItem){
 };
-
-
-
-    } catch(error){
-        console.log(error);
-        products.innerHTML = alert("error", error);
-    }
-}
-
-fetchProducts();
