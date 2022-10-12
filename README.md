@@ -1,4 +1,4 @@
-# Your project title
+# Rainy Days
 
 ![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
@@ -6,7 +6,7 @@ A simple overview of the use/purpose of the project.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+So this task was initially made without JS,
 
 You can add some bullet points if you'd like to:
 
