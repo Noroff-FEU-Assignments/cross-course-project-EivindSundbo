@@ -2,69 +2,58 @@
 
 ![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-A simple overview of the use/purpose of the project.
+Link to live [SITE](https://gorgeous-tiramisu-cb5830.netlify.app/)
 
 ## Description
 
-So this task was initially made without JS,
+So this task was given across different courses. We were provided a logo, slogan, target Audience, Unique selling points and site architecture:
+- Home
+- List of Jackets
+- A jacket specific page showing the jacket
+- A checkout page
+- A checkout success
+- About
+- ContactList
 
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+In the first semester we were to build this using only HTML and CSS, come second semester we were to expand the usabilities of the website by adding JavaScript:
+- The purchase/cart functionality
+- The contact form with JavaScript validation
+- Make an API with Wordpress
+- Pull content from API instead of hardcoding it
+- Using querystring to let the user navigate between products and product-list.
 
 ## Built With
+Here is the tech i used to make this site
 
-You can list a the tech stack that you've used over here
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
+- [JavaScript](https://www.w3schools.com/js/)
+- [Wordpress](https://wordpress.com/create/?aff=15767&cid=1654213&cmp_id=11549382845&adg_id=111353876614&kwd=wordpress&device=c)
 
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
 
 ## Getting Started
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+Nothing fancy here :D
+Just download the repo!
 
-1. Clone the repo:
-
+Repo:
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-```
-
-2. Install the dependencies:
-
-```
-npm install
+https://github.com/Noroff-FEU-Assignments/cross-course-project-EivindSundbo.git
 ```
 
 ### Running
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
+No special needs here. Just open with VSCode and launch with "Live Server"
 
-To run the app, run the following commands:
-
-```bash
-npm run start
-```
-
-## Contributing
-
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+If you have any feedback or just want to get in touch please contact me through:
 
-[My Twitter page](www.twitter.com)
+[My Discord](https://discord.com/users/298164219382333441)
 
-[My LinkedIn page](www.linkedin.com)
+[My LinkedIn page](https://www.linkedin.com/in/eivind-berg-sundb%C3%B8-9064b79a/)
 
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+[My Facebook page](https://www.facebook.com/eivind.ber)
